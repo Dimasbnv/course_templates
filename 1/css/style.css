@@ -1,0 +1,51 @@
+h1{
+    color: #00cdfb;
+    text-align: center;
+    font-size: 62px;
+    font-weight: 322px;
+}
+body {
+    background: URL('../img/background.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.films{
+    float: left;
+    margin: 85px;
+    position: relative;
+    width: 200px;
+}
+.films>h3{
+    color: #00bd77;
+    text-align: center;
+    font-size: 25px;
+}
+.films>img{
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    margin: 5px;
+}
+.underline{
+    text-decoration: underline;
+}
+.treiler{
+    float: left;
+    height: 320px;
+    width: 25%;
+}
+ul{
+    padding: 0px;
+    text-align: center;
+    color: #47e880;
+}
+ul li{
+    list-style-type: decimal-leading-zero;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 6px 10px;
+    margin: -10px 20px;
+    font-size: 27px;
+    border-radius: 20px;
+}
